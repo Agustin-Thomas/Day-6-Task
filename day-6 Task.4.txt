@@ -1,0 +1,11 @@
+class uber{
+    constructor(costPerKm,distancePerKm){
+        this.costPerKm=costPerKm;
+        this.distancePerKm=distancePerKm;
+}
+get cal(){
+    return a.costPerKm + a.distancePerKm
+}
+}
+var a = new uber(20,100);
+console.log(a.cal);

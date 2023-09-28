@@ -1,0 +1,10 @@
+class person {
+    constructor(name,qualification,job,salary){
+        this.name=name;
+        this.qualification=qualification;
+        this.job=job;
+        this.salary=salary;
+    }
+}
+var a = new person("Thomas","B.E","Developer","8LPA");
+console.log( "Hi,This is"+a.name+" My qualification was "+a.qualification +" I am a "+ a.job+ " my salary was "+a.salary);
